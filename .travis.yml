@@ -2,6 +2,8 @@ language: php
 php:
 - 7.4
 before_script:
-  - composer install
+- composer install
 script: composer test
-
+deploy:
+  api_key:
+    secure: t5ynDmGwNLwaNwlfXDmX965lf3qbCMw/C8Qm/GI/x/GA8x+Nb5KhP3RKYWDQ47ykrwjPEAQMQtXf9MKFG/O9gKAI5fiP77CGMPMvY4DGDJatACKVqfPFlyKKftwM93+C5nX+AVCWtBuzV+E2AH7EvhzPQQt+4P2s2/a+6lpY4gD47Hw4JhwuUvc2+h6biwNxr2PvvQHOh/0x6/zdt7zTBOJuJ8CdT1KgYk0XVN+PQaFTsVpKS0X5IMzr5udyAs540YKL9XodudTtPdbBeELf7HXEwQbG7Ww4PVYMYEeGDQQddNqxbuz8WN2rd+G1nudZOXfwcU6Tk5im2RvoOmQ8SWr+Oy6Y7FdGgd0PACyGIVKHV+V+BWBaUfPyyJrav8JtuTUNR4X2cbf3r2XbOs4EOR6ZdsHL00PTTbLjqmWJ0A6AFSQRLyvlPPBD8rUR91DcTie7ecb8RXld2b5xMIoHz+js6+Kjrdc3U2YRWJurCUNb9jg3RMWq5FP+ov46Yo7IGSyZbY7HZSs+hO0K2NrsHYzD9cE2ISpSip2YnxjScwbASGw8xPItElMrZzVQxtaKUzznRq/N2njr0EIAOg1t4vDgNcaA0DhIcf5Jqy0Burh2NaaWeWLj1Yjb6uoj6jXNjbyoT4M/HGypkQJ+T/n8Z16fMcpTQFLUnKXrOBMAEhg=
