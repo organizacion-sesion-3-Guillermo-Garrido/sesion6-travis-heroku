@@ -1,5 +1,4 @@
 <IfModule mod_rewrite.c>
-    ##Force SSL 
     #Heroku way
     RewriteCond %{HTTP:X-Forwarded-Proto} !https 
     Options -MultiViews
