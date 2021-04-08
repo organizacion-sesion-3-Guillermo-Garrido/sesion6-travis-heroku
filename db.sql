@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `cursophp7`
 --
-CREATE DATABASE 'cursogithub' DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
-USE 'cursogithub';
 -- --------------------------------------------------------
 
 --
