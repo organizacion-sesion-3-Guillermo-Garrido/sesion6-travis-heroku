@@ -4,10 +4,10 @@ use Monolog\Logger;
 
 return [
     'database' => [
-        'name' => 'cursophp7',
-        'username' => 'userCurso',
-        'password' => '123',
-        'connection' => 'mysql:host=guillermo-garrido.localhost',
+        'name' => 'heroku_79522f8f4c920c6',
+        'username' => 'bd42c4bdd08df4',
+        'password' => '4b6a8f85',
+        'connection' => 'mysql:host=eu-cdbr-west-01.cleardb.com',
         'options' =>  [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
