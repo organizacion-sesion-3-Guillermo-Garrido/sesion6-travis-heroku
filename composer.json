@@ -1,0 +1,27 @@
+
+
+{
+    "name": "tarea5/travis",
+    "description": "Tarea realizada para el curso de GitHub",
+    "license": "(LGPL-2.1-only or GPL-3.0-or-later)",
+    "authors": [
+        {
+            "name": "Guillermo Garrido",
+            "email": "guillermo.garrido.edu@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+        }
+    },    
+    "require": {
+        "php": "^7.4.0|^8.0"
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0.0"
+    }
+}
