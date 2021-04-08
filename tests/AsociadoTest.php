@@ -23,8 +23,7 @@ class AsociadoTest extends TestCase
     } 
     public function testSetNombre(): void
     {
-        $result = $this->asociado->setNombre('Test');
-        $this->assertEquals($this->asociado::class, Asociado::class);
+        $this->asociado->setNombre('Test');
         $this->assertEquals($this->asociado->getNombre(), 'Test');
     } 
 }
